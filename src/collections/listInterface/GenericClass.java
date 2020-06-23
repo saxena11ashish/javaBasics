@@ -1,4 +1,4 @@
-package arrayList;
+package collections.listInterface;
 
 public class GenericClass<A,B> {
     A a;

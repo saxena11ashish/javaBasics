@@ -1,7 +1,7 @@
-package arrayList;
+package collections.listInterface;
 
 import java.util.ArrayList;
-import java.util.Collections;   //Collection's sort() function is used to sort an arrayList
+import java.util.Collections;   //Collection's sort() function is used to sort an collections.arrayList
 import java.util.List;
 
 public class MyArrayList {
@@ -22,6 +22,7 @@ public class MyArrayList {
         Object Arr = s.toArray(temp);
         for(String i : temp)
             System.out.print(i+ " ");
+
 
 ////_______________________GENERIC CLASS USE EXAMPLE____________________________________________________________________
 //        GenericClass<Integer,Float> pair = new GenericClass(21,21f);
@@ -61,10 +62,10 @@ public class MyArrayList {
 
 //  Remove all elements     :   arrayListObject.clear();
 
-//  Size of arrayList   :   arrayListObject.size();
+//  Size of collections.arrayList   :   arrayListObject.size();
         System.out.println(a.size());
 
-//  Sorting an arrayList    :   ArrayList is a collection, so we use Collections.sort(arrayListObject) to sort it.
+//  Sorting an collections.arrayList    :   ArrayList is a collection, so we use Collections.sort(arrayListObject) to sort it.
         Collections.sort(a);
         System.out.println(a);
 
